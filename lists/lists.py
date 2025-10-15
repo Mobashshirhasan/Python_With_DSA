@@ -47,8 +47,82 @@
 # print(fruits)
 
 
-fruits = ['orange', 'Apple', 'Banana', 'Guava', 'kiwi', 'Pomogranate']
-# print(fruits.count("Apple"))
+# fruits = ['orange', 'Apple', 'Banana', 'Guava', 'kiwi', 'Pomogranate']
+# # print(fruits.count("Apple"))
 
-fruits.sort()  #this will sort the list in the ascending order
-print(fruits)
+# # fruits.sort()  #this will sort the list in the ascending order
+
+# fruits.reverse()  #this will rreverse the list
+# print(fruits)
+
+# fruits.clear()  #this will clear all the list
+# print(fruits)
+
+
+
+
+
+''' 
+    Slicing List...
+ '''
+
+number = [1,2,3,4,5,6,7,8,9]
+# print(number[2:5])  #3,4,5
+# print(number[:5])   #1,2,3,4,5
+# print(number[2:])   #3,4,5,6,7,8,9
+# print(number[-2:])  #8,9
+# print(number[::2])   #jump 2 steps
+# print(number[::-1])   #print from reverse
+
+
+
+# for index,num in enumerate(number):
+#     print(index,num)
+
+
+# lst = []
+
+# for x in range(10):
+#     lst.append(x**2)
+
+# print(lst)
+
+# num = [x**2 for x in range(10)]
+# print(num)
+
+
+
+''' 
+    list comprehension with conditions
+'''
+
+# lst = []
+# for i in range(10):
+#     if i % 2 == 0:
+#         lst.append(i)
+
+# print(lst)
+
+# even_number = [num for num in range(10) if num % 2 == 0]
+# print(even_number)
+
+
+''' 
+    Nested list comprehension
+'''
+
+# list1 = [1,2,3,4,5]
+# list2 = ["a","b","c","d","e"]
+
+# pair = [[i, j] for i in list1 for j in list2]
+# print(pair)
+
+
+
+''' 
+    list comprehension with function calls
+'''
+
+words = ["hello", "world", "python", "list", "comprehension"]
+lengths = [len(word) for word in words]
+print(lengths)
