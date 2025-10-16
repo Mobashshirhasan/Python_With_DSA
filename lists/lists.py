@@ -123,6 +123,6 @@ number = [1,2,3,4,5,6,7,8,9]
     list comprehension with function calls
 '''
 
-words = ["hello", "world", "python", "list", "comprehension"]
-lengths = [len(word) for word in words]
-print(lengths)
+# words = ["hello", "world", "python", "list", "comprehension"]
+# lengths = [len(word) for word in words]
+# print(lengths)
