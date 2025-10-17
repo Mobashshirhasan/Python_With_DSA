@@ -66,7 +66,7 @@
     Slicing List...
  '''
 
-number = [1,2,3,4,5,6,7,8,9]
+# number = [1,2,3,4,5,6,7,8,9]
 # print(number[2:5])  #3,4,5
 # print(number[:5])   #1,2,3,4,5
 # print(number[2:])   #3,4,5,6,7,8,9
@@ -126,3 +126,18 @@ number = [1,2,3,4,5,6,7,8,9]
 # words = ["hello", "world", "python", "list", "comprehension"]
 # lengths = [len(word) for word in words]
 # print(lengths)
+
+
+
+
+
+
+number = [1,2,3,4,55,6,7,8,9,10]
+
+# number.append(11)
+# number.pop()
+# number.sort()
+# number.remove(55)
+# number.reverse()
+number.clear()
+print(number)
