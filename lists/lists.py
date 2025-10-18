@@ -132,12 +132,13 @@
 
 
 
-number = [1,2,3,4,55,6,7,8,9,10]
+# number = [1,2,3,4,55,6,7,8,9,10]
 
-# number.append(11)
-# number.pop()
-# number.sort()
-# number.remove(55)
-# number.reverse()
-number.clear()
-print(number)
+# # number.append(11)
+# # number.pop()
+# # number.sort()
+# # number.remove(55)
+# # number.reverse()
+# # number.clear()
+# print(number)
+
