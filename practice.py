@@ -36,11 +36,13 @@
 i = 1
 j = 1
 k = 1
+z = 1
 
-while i <= 5:
-    print("Mobashshir")
-    i = i + 1
-    while j <= 5:
+while z <= 5:
+    while i <= 3:
+        print("Mobashshir")
+        i = i + 1
+    while j <= 3:
         print("Hasan")
         j = j + 1 
     while k <= 3:
@@ -48,3 +50,5 @@ while i <= 5:
         k = k + 1
     k = 1
     j = 1
+    i = 1
+    z = z + 1
