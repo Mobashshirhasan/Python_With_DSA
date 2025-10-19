@@ -1,15 +1,50 @@
-''' 
-    Prime Number
-'''
-num = int(input("Enter a number :"))
+# ''' 
+#     Prime Number
+# '''
+# num = int(input("Enter a number :"))
 
-count = 0 
+# count = 0 
 
-for i in range(1, num+1):
-    if num % i == 0:
-        count = count+1
+# for i in range(1, num+1):
+#     if num % i == 0:
+#         count = count+1
 
-if count == 2:
-    print("number is prime ")
-else:
-    print("numer is not prime")
+# if count == 2:
+#     print("number is prime ")
+# else:
+#     print("numer is not prime")
+
+
+
+
+
+
+
+# num1 = int(input("Enter number of rows : "))
+# # num2 = int(input("Enter number of columns : "))
+
+# for i in range(1, num1+1):
+#     for j in range(i):
+#         print("*", end=" ")
+#     print("\n")
+
+
+
+# total prime number :
+#
+
+i = 1
+j = 1
+k = 1
+
+while i <= 5:
+    print("Mobashshir")
+    i = i + 1
+    while j <= 5:
+        print("Hasan")
+        j = j + 1 
+    while k <= 3:
+        print("Qatar")
+        k = k + 1
+    k = 1
+    j = 1
