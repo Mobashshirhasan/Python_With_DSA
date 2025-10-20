@@ -33,22 +33,30 @@
 # total prime number :
 #
 
-i = 1
-j = 1
-k = 1
-z = 1
+# i = 1
+# j = 1
+# k = 1
+# z = 1
 
-while z <= 5:
-    while i <= 3:
-        print("Mobashshir")
-        i = i + 1
-    while j <= 3:
-        print("Hasan")
-        j = j + 1 
-    while k <= 3:
-        print("Qatar")
-        k = k + 1
-    k = 1
-    j = 1
-    i = 1
-    z = z + 1
+# while z <= 5:
+#     while i <= 3:
+#         print("Mobashshir")
+#         i = i + 1
+#     while j <= 3:
+#         print("Hasan")
+#         j = j + 1 
+#     while k <= 3:
+#         print("Qatar")
+#         k = k + 1
+#     k = 1
+#     j = 1
+#     i = 1
+#     z = z + 1
+
+
+num = int(input("Enter a number : "))   #5
+
+for i in range(num):  #row
+    for j in range(num):  #column
+        print("* ", end= " ")
+    print()
