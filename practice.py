@@ -56,7 +56,14 @@
 
 num = int(input("Enter a number : "))   #5
 
-for i in range(num):  #row
-    for j in range(num):  #column
-        print("* ", end= " ")
-    print()
+for i in range(1, num+1):  #row
+    for j in range(1, num+1):  #column
+        # print("* ", end= " ")
+        if i == 1 or i == num:
+            print("*", end=" ")
+        else:
+            if j == 1 or j == num:
+                print("*", end=" ")
+            else:
+                print(" ", end=" ")
+    print("\n")
