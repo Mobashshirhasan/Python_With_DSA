@@ -81,4 +81,4 @@ for i in range(1, num+1):
             # print(" ")
             if j == 1 :
                 print("*", end=" ")
-    print()
+    print("")
