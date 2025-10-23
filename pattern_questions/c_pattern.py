@@ -6,7 +6,7 @@ for i in range(1, num+1):  #row
         if i == 1 or i == num:
             print("*", end=" ")
         else:
-            if j == 1 or j == num:
+            if j == 1 :
                 print("*", end=" ")
             else:
                 print(" ", end=" ")
