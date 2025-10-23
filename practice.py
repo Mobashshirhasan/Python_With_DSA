@@ -71,14 +71,35 @@
 
 
 
-num = int(input("Enter a number : "))
+# num = int(input("Enter a number : "))
 
-for i in range(1, num+1):
-    for j in range(1, num+1):
-        if i == 1 or i == num:
-            print("*", end=" ")
-        else:
-            # print(" ")
-            if j == 1 :
-                print("*", end=" ")
-    print("")
+# for i in range(1, num+1):
+#     for j in range(1, num+1):
+#         if i == 1 or i == num:
+#             print("*", end=" ")
+#         else:
+#             # print(" ")
+#             if j == 1 :
+#                 print("*", end=" ")
+#     print("")
+
+
+
+
+
+
+
+num = int(input("enter a number: "))
+
+count = 0
+if num <= 0:
+    print("plz enter your number greater than 0")
+else:
+    for i in range(1, num+1):
+        if num % i == 0:
+            count = count + 1
+
+    if count == 2:
+        print("number is prime")
+    else:
+        print("number is not prime")
